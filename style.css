@@ -1,0 +1,132 @@
+div{
+    margin: 0px;
+}
+.menu{
+    width: 100%;
+}
+li{
+    font-weight: 32px;
+    padding:20px;
+    display: inline;
+    float: right;
+    margin-left: 0px;
+    padding-left: 20px;
+    font-weight: bolder;
+}
+.nav-bar{
+    text-decoration: none;
+    margin-left: 30px;
+    color: antiquewhite;
+}
+.nav-bar:hover{
+    background-color: brown;
+}
+#image{
+    padding-top: 20px;
+    background-color: 
+}
+.padding{
+    padding-right:20px;
+}
+.logo{
+    padding-top: 10px;
+    padding: 20px;
+}
+.grid-container{
+    float: right;
+    margin-top: -200px;
+}
+.image-1{
+    padding:10px;
+    border-radius: 50px 50px 50px 50px;
+    transform: translateY(-10px);
+}
+.image-2{
+    padding:10px;
+    border-radius: 50px 50px 50px 50px;
+    transform:translateY(-10px);
+}
+.image-3{
+    padding:10px;
+    border-radius: 50px 50px 50px 50px;
+    transform:translateY(-1);
+}
+.image-4{
+    padding:10px;
+    border-radius: 50px 50px 50px 50px;
+    transform:translateY(-10px);
+
+}
+.grid-container:hover{
+    background-position:2px;
+}
+#sahara{
+    padding-top:50px;
+    padding-left: 60px;
+    font-weight: bold;
+    color:black;
+}
+p{
+    padding-left: 30px;
+    font-weight: bold;
+    color: black;
+}
+#item{
+    background-color:rosybrown;
+    float: right;
+    margin-left:60px;
+    margin-top: 15px;
+}
+.nav-bar-1{
+    margin-right: 100px;
+}
+.nav-bar-1:hover{
+    background-color: aqua;
+}
+.grid-container-box{
+    height:800px;
+    width:100%;
+    background-size: auto;
+    background:url("https://cdn.britannica.com/09/152309-050-5E0B2A42/Sahara-Morocco.jpg")
+}
+button{
+    height: 50px;
+    width:150px;
+    border-radius: 20px;
+    text-align:center;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+.image-1:hover{
+    transform: translateY(2px);
+}
+.image-2:hover{
+    transform: translateY(2px);
+}
+.image-3:hover{
+    transform: translateY(2px);
+}
+.image-4:hover{
+    transform: translateY(2px);
+}
+@media (man-width:320px) and (max-width:480px) {
+    #image-1{
+        width: 100%;
+      display:block;
+    }
+    
+}
+@media (min-width:481px) and (max-with:768px) {
+    #image-2{
+        width: 100%;
+        display:block;
+    }
+}
+@media (min-width:769px) and (max-with:px) {
+    #image-3{
+        width: 100%;
+        display:block;
+    }
+}
+
