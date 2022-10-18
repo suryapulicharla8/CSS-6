@@ -97,7 +97,6 @@ button{
     margin-top: 20px;
     margin-left: 20px;
 }
-
 .image-1:hover{
     transform: translateY(2px);
 }
@@ -110,7 +109,7 @@ button{
 .image-4:hover{
     transform: translateY(2px);
 }
-@media (man-width:320px) and (max-width:480px) {
+@media (min-width:320px) and (max-width:480px) {
     #image-1{
         width: 100%;
       display:block;
